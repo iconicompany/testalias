@@ -1,4 +1,4 @@
-# testalias
+# How to have aliases with nodejs import
 
 ## test
 
