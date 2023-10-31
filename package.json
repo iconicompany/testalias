@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "imports": {
-    "#libs/*": "./src/libs/*.mjs"
+    "#libs/*": "./src/libs/*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

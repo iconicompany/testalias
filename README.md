@@ -2,7 +2,7 @@
 
 ## example usage
 
-`import { add } from '#libs/math';`
+`import { add } from "#libs/math.mjs"`
 
 ## setup
 
@@ -10,8 +10,23 @@ package.json:
 
 ```
   "imports": {
-    "#libs/*": "./src/libs/*.mjs"
+    "#libs/*": "./src/libs/*"
   },
+```
+
+## IDE compatibility
+
+jsconfig.json
+```
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "#components/*": [ "src/components/*" ],
+      "#libs/*": [ "src/libs/*" ]
+    }
+  }
+}
 ```
 
 ## test
